@@ -1,5 +1,5 @@
 import asyncio
-from queue import dequeue_ride
+from ride_queue import dequeue_ride
 from matcher import match_driver
 
 async def worker(worker_id: int):
