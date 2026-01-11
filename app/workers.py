@@ -1,6 +1,6 @@
 import asyncio
 from app.ride_queue import dequeue_ride
-from matcher import match_driver
+from app.matcher import match_driver
 
 async def worker(worker_id: int):
     print(f"Worker {worker_id} started")

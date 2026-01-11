@@ -1,10 +1,10 @@
 from fastapi import FastAPI, Request, HTTPException
 import asyncio
 
-from schemas import RideRequest
-from rate_limiter import rate_limit
+from app.schemas import RideRequest
+from app.rate_limiter import rate_limit
 from app.ride_queue import enqueue_ride
-from workers import start_workers
+from app.workers import start_workers
 
 app = FastAPI(title="RideFlow Backend")
 
