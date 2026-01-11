@@ -1,4 +1,3 @@
-# app/rate_limiter.py
 import time
 import redis
 

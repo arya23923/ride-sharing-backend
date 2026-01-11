@@ -1,4 +1,3 @@
-# app/workers.py
 import asyncio
 from queue import dequeue_ride
 from matcher import match_driver
