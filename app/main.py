@@ -3,7 +3,7 @@ import asyncio
 
 from schemas import RideRequest
 from rate_limiter import rate_limit
-from ride_queue import enqueue_ride
+from app.ride_queue import enqueue_ride
 from workers import start_workers
 
 app = FastAPI(title="RideFlow Backend")
